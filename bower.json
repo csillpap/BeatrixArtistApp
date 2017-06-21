@@ -1,0 +1,22 @@
+{
+  "name": "project-stream1",
+  "description": "Final project for Code Institute Stream 1",
+  "main": "index.js",
+  "authors": [
+    "Csilla Pap"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/csillpap/project-stream1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4"
+  }
+}
