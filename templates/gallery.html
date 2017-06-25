@@ -13,3 +13,19 @@
 	</div>
 		     
 </div>
+
+<div class="container" ng-controller="PaintingsController">
+	
+	<div class="row">
+        <div class="col-lg-12">
+            <h1 class="picture-headers">Paintings</h1>
+        </div>
+	</div>
+	
+	<div class="row">
+        <div id="drawings-container" class="col-lg-3 col-md-3 col-xs-12" ng-repeat="paintingpic in paintingpics">
+            <paintings painting="paintingpic"></paintings>
+        </div>
+	</div>
+		     
+</div>
