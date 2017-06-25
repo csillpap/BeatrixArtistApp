@@ -133,3 +133,122 @@ angular.module("Controllers", [])
 	  },
 	];
     })
+	
+	// Controller for the paintings
+	
+	.controller("PaintingsController", function($scope) {
+        $scope.paintingpics = [ 
+	  { 
+	    icon: "images/paintings/colorful-girl.jpg", 
+	    description: "Colorful portrait of a girl"
+	  },
+	  { 
+	    icon: "images/paintings/abstract-portrait.jpg", 
+	    description: "Abstract portrait of a girl"
+	  },
+	  { 
+	    icon: "images/paintings/old-man.jpg", 
+	    description: "Portrait of an old man"
+	  },
+	  { 
+	    icon: "images/paintings/woman.jpg", 
+	    description: "Portrait of a woman"
+	  },
+	  { 
+	    icon: "images/paintings/woman2.jpg", 
+	    description: "Portrait of a woman"
+	  },
+	  { 
+	    icon: "images/paintings/girl.jpg", 
+	    description: "Girl"
+	  },
+	  { 
+	    icon: "images/paintings/friends.jpg", 
+	    description: "Friends"
+	  },
+	  { 
+	    icon: "images/paintings/water-color-moncsa.jpg", 
+	    description: "My friend Moncsa"
+	  },
+	  { 
+	    icon: "images/paintings/elderly-lady.jpg", 
+	    description: "Elderly lady"
+	  },
+	  { 
+	    icon: "images/paintings/franz-marc-the-fox.jpg", 
+	    description: "Franz Marc: The Fox"
+	  }, 
+	  { 
+	    icon: "images/paintings/matisse-woman-in-green.jpg", 
+	    description: "Matisse: Woman in green"
+	  },
+	  { 
+	    icon: "images/paintings/victor-manuel-gitana-tropical.jpg", 
+	    description: "Victor Manuel: Gitana Tropical"
+	  },
+	  { 
+	    icon: "images/paintings/fox.jpg", 
+	    description: "Fox"
+	  },
+	  { 
+	    icon: "images/paintings/rabbit.jpg", 
+	    description: "Rabbit"
+	  },
+	  { 
+	    icon: "images/paintings/raven.jpg", 
+	    description: "Raven"
+	  },
+	  { 
+	    icon: "images/paintings/wolf.jpg", 
+	    description: "Wolf"
+	  },
+	  { 
+	    icon: "images/paintings/butterfly.jpg", 
+	    description: "Butterfly"
+	  },
+	  { 
+	    icon: "images/paintings/cat.jpg", 
+	    description: "Cat"
+	  },
+	  { 
+	    icon: "images/paintings/lizard.jpg", 
+	    description: "Lizard"
+	  },
+	  { 
+	    icon: "images/paintings/squirrel.jpg", 
+	    description: "Squirrel"
+	  },
+	  { 
+	    icon: "images/paintings/swan.jpg", 
+	    description: "Swan"
+	  },
+	  { 
+	    icon: "images/paintings/tit.jpg", 
+	    description: "Tit"
+	  },
+	  { 
+	    icon: "images/paintings/deer.jpg", 
+	    description: "Deer"
+	  },
+	  { 
+	    icon: "images/paintings/boy.jpg", 
+	    description: "Boy"
+	  },
+	  { 
+	    icon: "images/paintings/town-life.jpg", 
+	    description: "Life of teenage boys in our little town"
+	  },
+	  { 
+	    icon: "images/paintings/town-life2.jpg", 
+	    description: "Life of teenage boys in our little town"
+	  },
+	  { 
+	    icon: "images/paintings/town-life3.jpg", 
+	    description: "Life of teenage boys in our little town"
+	  },
+	  { 
+	    icon: "images/paintings/town-life4.jpg", 
+	    description: "Life of teenage boys in our little town"
+	  },
+	];
+    })
