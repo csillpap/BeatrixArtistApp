@@ -9,3 +9,15 @@ angular.module("DrawingsDirective",[]).directive("drawings", function() {
     templateUrl: 'templates/directives/drawings.html'
   };
 }); 
+
+// Directive for Paintings
+
+angular.module("PaintingsDirective",[]).directive("paintings", function() {
+  return {
+    restrict: 'EA',    // EA -> element/attribute
+	scope: {
+		painting: "="
+	},
+    templateUrl: 'templates/directives/paintings.html'
+  };
+});
