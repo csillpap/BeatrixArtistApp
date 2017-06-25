@@ -1,4 +1,4 @@
-angular.module("BeatrixWebsite", ["ngRoute", "Controllers"]);
+angular.module("BeatrixWebsite", ["ngRoute", "Controllers", "DrawingsDirective"]);
 
 angular.module("BeatrixWebsite").config(function($locationProvider, $routeProvider) {
 	$locationProvider.html5Mode(true); //enable href routing without hashes
