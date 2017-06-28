@@ -29,3 +29,19 @@
 	</div>
 		     
 </div>
+
+<div class="container" ng-controller="OtherArtController">
+	
+	<div class="row">
+        <div class="col-lg-12">
+            <h1 class="picture-headers">Other Art</h1>
+        </div>
+	</div>
+	
+	<div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-12 picture-container" ng-repeat="otherpic in otherpics">
+            <other-art other="otherpic"></other-art>
+        </div>
+	</div>
+		     
+</div>
