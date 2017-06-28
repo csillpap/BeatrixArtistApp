@@ -252,3 +252,71 @@ angular.module("Controllers", [])
 	  },
 	];
     })
+	
+	// Controller for Other Art
+	
+	.controller("OtherArtController", function($scope) {
+        $scope.otherpics = [ 
+	  { 
+	    icon: "images/other/jimi-hendrix.jpg", 
+	    description: "Jimi Hendrix - woodcut"
+	  }, 
+	  { 
+	    icon: "images/other/cat.jpg", 
+	    description: "Cat - linocut"
+	  },
+	  { 
+	    icon: "images/other/lino-cat.jpg", 
+	    description: "Cat - linocut"
+	  },
+	  { 
+	    icon: "images/other/screenprint.jpg", 
+	    description: "Man with a tree - screenprint"
+	  },
+	  { 
+	    icon: "images/other/utopia-band.jpg", 
+	    description: "Cover for the band Utopia"
+	  },
+	  { 
+	    icon: "images/other/blinded-by-you.jpg", 
+	    description: "The effect of a grenade"
+	  },
+	  { 
+	    icon: "images/other/clay-head.jpg", 
+	    description: "Human head made of clay"
+	  },
+	  { 
+	    icon: "images/other/football-cards.jpg", 
+	    description: "Football cards"
+	  },
+	  { 
+	    icon: "images/other/drypoint.jpg", 
+	    description: "Tiger and deer - drypoint"
+	  },
+	  { 
+	    icon: "images/other/serj-tankian.jpg", 
+	    description: "Serj Tankian from System Of a Down - linocut"
+	  },
+	  { 
+	    icon: "images/other/invisible-yeti.jpg", 
+	    description: "The invisible yeti - bookcover"
+	  },
+	  { 
+	    icon: "images/other/trump-and-hillary.jpg", 
+	    description: "Trump and Hillary painted with food ingredients"
+	  },
+	  { 
+	    icon: "images/other/clay-sculpture.jpg", 
+	    description: "Sculpture from clay"
+	  },
+	  { 
+	    icon: "images/other/pinecone.jpg", 
+	    description: "Pinecone from clay"
+	  },
+	  { 
+	    icon: "images/other/platon.jpg", 
+	    description: "Platon by Beatrix"
+	  },
+	];
+    })
+	
