@@ -17,6 +17,10 @@ angular.module("BeatrixWebsite").config(function($locationProvider, $routeProvid
 		templateUrl: "templates/paintings.html",
 		controller: 'PaintingsController'
 	})
+	.when("/other", {
+		templateUrl: "templates/other.html",
+		controller: 'OtherArtController'
+	})
 	.when("/about", {
 		templateUrl: "templates/about.html"
 	})
