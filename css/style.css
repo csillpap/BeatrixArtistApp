@@ -1,5 +1,5 @@
 body {
-	padding-top: 60px; /* to push the content down from the navbar */
+	/*padding-top: 60px; /* to push the content down from the navbar */
 }
 
 .artpic {
@@ -15,4 +15,33 @@ body {
 .picture-container {
 	padding-right: 5px;
 	padding-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+	.navbar {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+		.navbar-brand {
+			margin-top: 20px;
+		}
+}
+
+.navbar-brand {
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+}
+
+.navbar-nav > li > a {
+	text-transform: uppercase;
+	
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+	background-color: transparent;
+	color: black;
 }
