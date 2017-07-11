@@ -163,121 +163,152 @@ angular.module("Controllers", [])
 	
 	// Controller for the paintings
 	
-	.controller("PaintingsController", function($scope) {
+	.controller("PaintingsController", function($scope, Lightbox) {
         $scope.paintingpics = [ 
 	  { 
-	    icon: "images/paintings/colorful-girl.jpg", 
-	    description: "Colorful portrait of a girl"
+	    "thumbUrl": "images/paintings/colorful-girl.jpg", 
+	    "caption": "Colorful portrait of a girl",
+		"url": "images/paintings/colorful-girl.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/abstract-portrait.jpg", 
-	    description: "Abstract portrait of a girl"
+	    "thumbUrl": "images/paintings/abstract-portrait.jpg", 
+	    "caption": "Abstract portrait of a girl",
+		"url": "images/paintings/abstract-portrait.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/old-man.jpg", 
-	    description: "Portrait of an old man"
+	    "thumbUrl": "images/paintings/old-man.jpg", 
+	    "caption": "Portrait of an old man",
+		"url": "images/paintings/old-man.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/woman.jpg", 
-	    description: "Portrait of a woman"
+	    "thumbUrl": "images/paintings/woman.jpg", 
+	    "caption": "Portrait of a woman",
+		"url": "images/paintings/woman.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/woman2.jpg", 
-	    description: "Portrait of a woman"
+	    "thumbUrl": "images/paintings/woman2.jpg", 
+	    "caption": "Portrait of a woman",
+		"url": "images/paintings/woman2.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/girl.jpg", 
-	    description: "Girl"
+	    "thumbUrl": "images/paintings/girl.jpg", 
+	    "caption": "Girl",
+		"url": "images/paintings/girl.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/friends.jpg", 
-	    description: "Friends"
+	    "thumbUrl": "images/paintings/friends.jpg", 
+	    "caption": "Friends",
+		"url": "images/paintings/friends.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/water-color-moncsa.jpg", 
-	    description: "My friend Moncsa"
+	    "thumbUrl": "images/paintings/water-color-moncsa.jpg", 
+	    "caption": "My friend Moncsa",
+		"url": "images/paintings/water-color-moncsa.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/elderly-lady.jpg", 
-	    description: "Elderly lady"
+	    "thumbUrl": "images/paintings/elderly-lady.jpg", 
+	    "caption": "Elderly lady",
+		"url": "images/paintings/elderly-lady.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/franz-marc-the-fox.jpg", 
-	    description: "Franz Marc: The Fox"
+	    "thumbUrl": "images/paintings/franz-marc-the-fox.jpg", 
+	    "caption": "Franz Marc: The Fox",
+		"url": "images/paintings/franz-marc-the-fox.jpg"
 	  }, 
 	  { 
-	    icon: "images/paintings/matisse-woman-in-green.jpg", 
-	    description: "Matisse: Woman in green"
+	    "thumbUrl": "images/paintings/matisse-woman-in-green.jpg", 
+	    "caption": "Matisse: Woman in green",
+		"url": "images/paintings/matisse-woman-in-green.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/victor-manuel-gitana-tropical.jpg", 
-	    description: "Victor Manuel: Gitana Tropical"
+	    "thumbUrl": "images/paintings/victor-manuel-gitana-tropical.jpg", 
+	    "caption": "Victor Manuel: Gitana Tropical",
+		"url": "images/paintings/victor-manuel-gitana-tropical.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/fox.jpg", 
-	    description: "Fox"
+	    "thumbUrl": "images/paintings/fox.jpg", 
+	    "caption": "Fox",
+		"url": "images/paintings/fox.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/rabbit.jpg", 
-	    description: "Rabbit"
+	    "thumbUrl": "images/paintings/rabbit.jpg", 
+	    "caption": "Rabbit",
+		"url": "images/paintings/rabbit.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/raven.jpg", 
-	    description: "Raven"
+	    "thumbUrl": "images/paintings/raven.jpg", 
+	    "caption": "Raven",
+		"url": "images/paintings/raven.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/wolf.jpg", 
-	    description: "Wolf"
+	    "thumbUrl": "images/paintings/wolf.jpg", 
+	    "caption": "Wolf",
+		"url": "images/paintings/wolf.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/butterfly.jpg", 
-	    description: "Butterfly"
+	    "thumbUrl": "images/paintings/butterfly.jpg", 
+	    "caption": "Butterfly",
+		"url": "images/paintings/butterfly.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/cat.jpg", 
-	    description: "Cat"
+	    "thumbUrl": "images/paintings/cat.jpg", 
+	    "caption": "Cat",
+		"url": "images/paintings/cat.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/lizard.jpg", 
-	    description: "Lizard"
+	    "thumbUrl": "images/paintings/lizard.jpg", 
+	    "caption": "Lizard",
+		"url": "images/paintings/lizard.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/squirrel.jpg", 
-	    description: "Squirrel"
+	    "thumbUrl": "images/paintings/squirrel.jpg", 
+	    "caption": "Squirrel",
+		"url": "images/paintings/squirrel.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/swan.jpg", 
-	    description: "Swan"
+	    "thumbUrl": "images/paintings/swan.jpg", 
+	    "caption": "Swan",
+		"url": "images/paintings/swan.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/tit.jpg", 
-	    description: "Tit"
+	    "thumbUrl": "images/paintings/tit.jpg", 
+	    "caption": "Tit",
+		"url": "images/paintings/tit.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/deer.jpg", 
-	    description: "Deer"
+	    "thumbUrl": "images/paintings/deer.jpg", 
+	    "caption": "Deer",
+		"url": "images/paintings/deer.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/boy.jpg", 
-	    description: "Boy"
+	    "thumbUrl": "images/paintings/boy.jpg", 
+	    "caption": "Boy",
+		"url": "images/paintings/boy.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/town-life.jpg", 
-	    description: "Life of teenage boys in our little town"
+	    "thumbUrl": "images/paintings/town-life.jpg", 
+	    "caption": "Life of teenage boys in our little town",
+		"url": "images/paintings/town-life.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/town-life2.jpg", 
-	    description: "Life of teenage boys in our little town"
+	    "thumbUrl": "images/paintings/town-life2.jpg", 
+	    "caption": "Life of teenage boys in our little town",
+		"url": "images/paintings/town-life2.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/town-life3.jpg", 
-	    description: "Life of teenage boys in our little town"
+	    "thumbUrl": "images/paintings/town-life3.jpg", 
+	    "caption": "Life of teenage boys in our little town",
+		"url": "images/paintings/town-life3.jpg"
 	  },
 	  { 
-	    icon: "images/paintings/town-life4.jpg", 
-	    description: "Life of teenage boys in our little town"
+	    "thumbUrl": "images/paintings/town-life4.jpg", 
+	    "caption": "Life of teenage boys in our little town",
+		"url": "images/paintings/town-life4.jpg"
 	  },
 	];
+		$scope.openLightboxModal = function (index) {
+			Lightbox.openModal($scope.paintingpics, index);
+		};
     })
 	
 	// Controller for Other Art
