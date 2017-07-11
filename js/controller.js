@@ -313,68 +313,86 @@ angular.module("Controllers", [])
 	
 	// Controller for Other Art
 	
-	.controller("OtherArtController", function($scope) {
+	.controller("OtherArtController", function($scope, Lightbox) {
         $scope.otherpics = [ 
 	  { 
-	    icon: "images/other/jimi-hendrix.jpg", 
-	    description: "Jimi Hendrix - woodcut"
+	    "thumbUrl": "images/other/jimi-hendrix.jpg", 
+	    "caption": "Jimi Hendrix - woodcut",
+		"url": "images/other/jimi-hendrix.jpg"
 	  }, 
 	  { 
-	    icon: "images/other/cat.jpg", 
-	    description: "Cat - linocut"
+	    "thumbUrl": "images/other/cat.jpg", 
+	    "caption": "Cat - linocut",
+		"url": "images/other/cat.jpg"
 	  },
 	  { 
-	    icon: "images/other/lino-cat.jpg", 
-	    description: "Cat - linocut"
+	    "thumbUrl": "images/other/lino-cat.jpg", 
+	    "caption": "Cat - linocut",
+		"url": "images/other/lino-cat.jpg"
 	  },
 	  { 
-	    icon: "images/other/screenprint.jpg", 
-	    description: "Man with a tree - screenprint"
+	    "thumbUrl": "images/other/screenprint.jpg", 
+	    "caption": "Man with a tree - screenprint",
+		"url": "images/other/screenprint.jpg"
 	  },
 	  { 
-	    icon: "images/other/utopia-band.jpg", 
-	    description: "Cover for the band Utopia"
+	    "thumbUrl": "images/other/utopia-band.jpg", 
+	    "caption": "Cover for the band Utopia",
+		"url": "images/other/utopia-band.jpg"
 	  },
 	  { 
-	    icon: "images/other/blinded-by-you.jpg", 
-	    description: "The effect of a grenade"
+	    "thumbUrl": "images/other/blinded-by-you.jpg", 
+	    "caption": "The effect of a grenade",
+		"url": "images/other/blinded-by-you.jpg"
 	  },
 	  { 
-	    icon: "images/other/clay-head.jpg", 
-	    description: "Human head made of clay"
+	    "thumbUrl": "images/other/clay-head.jpg", 
+	    "caption": "Human head made of clay",
+		"url": "images/other/clay-head.jpg"
 	  },
 	  { 
-	    icon: "images/other/football-cards.jpg", 
-	    description: "Football cards"
+	    "thumbUrl": "images/other/football-cards.jpg", 
+	    "caption": "Football cards",
+		"url": "images/other/football-cards.jpg"
 	  },
 	  { 
-	    icon: "images/other/drypoint.jpg", 
-	    description: "Tiger and deer - drypoint"
+	    "thumbUrl": "images/other/drypoint.jpg", 
+	    "caption": "Tiger and deer - drypoint",
+		"url": "images/other/drypoint.jpg"
 	  },
 	  { 
-	    icon: "images/other/serj-tankian.jpg", 
-	    description: "Serj Tankian from System Of a Down - linocut"
+	    "thumbUrl": "images/other/serj-tankian.jpg", 
+	    "caption": "Serj Tankian from System Of a Down - linocut",
+		"url": "images/other/serj-tankian.jpg"
 	  },
 	  { 
-	    icon: "images/other/invisible-yeti.jpg", 
-	    description: "The invisible yeti - bookcover"
+	    "thumbUrl": "images/other/invisible-yeti.jpg", 
+	    "caption": "The invisible yeti - bookcover",
+		"url": "images/other/invisible-yeti.jpg"
 	  },
 	  { 
-	    icon: "images/other/trump-and-hillary.jpg", 
-	    description: "Trump and Hillary painted with food ingredients"
+	    "thumbUrl": "images/other/trump-and-hillary.jpg", 
+	    "caption": "Trump and Hillary painted with food ingredients",
+		"url": "images/other/trump-and-hillary.jpg"
 	  },
 	  { 
-	    icon: "images/other/clay-sculpture.jpg", 
-	    description: "Sculpture from clay"
+	    "thumbUrl": "images/other/clay-sculpture.jpg", 
+	    "caption": "Sculpture from clay",
+		"url": "images/other/clay-sculpture.jpg"
 	  },
 	  { 
-	    icon: "images/other/pinecone.jpg", 
-	    description: "Pinecone from clay"
+	    "thumbUrl": "images/other/pinecone.jpg", 
+	    "caption": "Pinecone from clay",
+		"url": "images/other/pinecone.jpg"
 	  },
 	  { 
-	    icon: "images/other/platon.jpg", 
-	    description: "Platon by Beatrix"
+	    "thumbUrl": "images/other/platon.jpg", 
+	    "caption": "Platon by Beatrix",
+		"url": "images/other/platon.jpg"
 	  },
 	];
+		$scope.openLightboxModal = function (index) {
+			Lightbox.openModal($scope.otherpics, index);
+		};
     })
 	
