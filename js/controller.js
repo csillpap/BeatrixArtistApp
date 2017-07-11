@@ -33,105 +33,132 @@ angular.module("Controllers", [])
 	
 	//Controller for the drawings
 	
-	.controller("DrawingsController", function($scope) {
+	.controller("DrawingsController", function($scope, Lightbox) {
         $scope.drawingpics = [ 
 	  { 
-	    icon: "images/drawings/prince-of-persia.jpg", 
-	    description: "Prince of Persia"
+	    "thumbUrl": "images/drawings/prince-of-persia.jpg", 
+	    "caption": "Prince of Persia",
+		"url": "images/drawings/prince-of-persia.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/Boris-Vallejo-painting.jpg", 
-	    description: "Copy of Boris Vallejo's painting"
+	    "thumbUrl": "images/drawings/Boris-Vallejo-painting.jpg", 
+	    "caption": "Copy of Boris Vallejo's painting",
+		"url": "images/drawings/Boris-Vallejo-painting.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/dragon.jpg", 
-	    description: "Dragon"
+	    "thumbUrl": "images/drawings/dragon.jpg", 
+	    "caption": "Dragon",
+		"url": "images/drawings/dragon.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/troll-hunter.jpg", 
-	    description: "Trollhunter"
+	    "thumbUrl": "images/drawings/troll-hunter.jpg", 
+	    "caption": "Trollhunter",
+		"url": "images/drawings/troll-hunter.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/female-warrior.jpg", 
-	    description: "Female Warrior"
+	    "thumbUrl": "images/drawings/female-warrior.jpg", 
+	    "caption": "Female Warrior",
+		"url": "images/drawings/female-warrior.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/Guldan.jpg", 
-	    description: "Guldan from World of Warcraft"
+	    "thumbUrl": "images/drawings/Guldan.jpg", 
+	    "caption": "Guldan from World of Warcraft",
+		"url": "images/drawings/Guldan.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/Lothar.jpg", 
-	    description: "Lothar from World of Warcraft"
+	    "thumbUrl": "images/drawings/Lothar.jpg", 
+	    "caption": "Lothar from World of Warcraft",
+		"url": "images/drawings/Lothar.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/Sylvanas-Windrunner.jpg", 
-	    description: "Sylvanas Windrunner from World of Warcraft"
+	    "thumbUrl": "images/drawings/Sylvanas-Windrunner.jpg", 
+	    "caption": "Sylvanas Windrunner from World of Warcraft",
+		"url": "images/drawings/Sylvanas-Windrunner.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/undead-warlock.jpg", 
-	    description: "Undead Warlock"
+	    "thumbUrl": "images/drawings/undead-warlock.jpg", 
+	    "caption": "Undead Warlock",
+		"url": "images/drawings/undead-warlock.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/Varian.jpg", 
-	    description: "Varian from World of Warcraft"
+	    "thumbUrl": "images/drawings/Varian.jpg", 
+	    "caption": "Varian from World of Warcraft",
+		"url": "images/drawings/Varian.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/Thrall.jpg", 
-	    description: "Thrall from World of Warcraft"
+	    "thumbUrl": "images/drawings/Thrall.jpg", 
+	    "caption": "Thrall from World of Warcraft",
+		"url": "images/drawings/Thrall.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/female-naga.jpg", 
-	    description: "Female Naga"
+	    "thumbUrl": "images/drawings/female-naga.jpg", 
+	    "caption": "Female Naga",
+		"url": "images/drawings/female-naga.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/sitting-man.jpg", 
-	    description: "Man sitting on a chair"
+	    "thumbUrl": "images/drawings/sitting-man.jpg", 
+	    "caption": "Man sitting on a chair",
+		"url": "images/drawings/sitting-man.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/skeleton.jpg", 
-	    description: "Skeleton"
+	    "thumbUrl": "images/drawings/skeleton.jpg", 
+	    "caption": "Skeleton",
+		"url": "images/drawings/skeleton.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/skeleton-and-skull.jpg", 
-	    description: "Skeleton and skulls"
+	    "thumbUrl": "images/drawings/skeleton-and-skull.jpg", 
+	    "caption": "Skeleton and skulls",
+		"url": "images/drawings/skeleton-and-skull.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/muscles.jpg", 
-	    description: "The muscles of a human"
+	    "thumbUrl": "images/drawings/muscles.jpg", 
+	    "caption": "The muscles of a human",
+		"url": "images/drawings/muscles.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/skyrim.jpg", 
-	    description: "Skyrim"
+	    "thumbUrl": "images/drawings/skyrim.jpg", 
+	    "caption": "Skyrim",
+		"url": "images/drawings/skyrim.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/Blood-queen-Lanathel.jpg", 
-	    description: "Blood Queen Lanathel"
+	    "thumbUrl": "images/drawings/Blood-queen-Lanathel.jpg", 
+	    "caption": "Blood Queen Lanathel",
+		"url": "images/drawings/Blood-queen-Lanathel.jpg"
 	  }, 
 	  { 
-	    icon: "images/drawings/Illidan.jpg", 
-	    description: "Illidan from World of Warcraft"
+	    "thumbUrl": "images/drawings/Illidan.jpg", 
+	    "caption": "Illidan from World of Warcraft",
+		"url": "images/drawings/Illidan.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/pope-francis.jpg", 
-	    description: "Pope Francis"
+	    "thumbUrl": "images/drawings/pope-francis.jpg", 
+	    "caption": "Pope Francis",
+		"url": "images/drawings/pope-francis.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/plague-doctor.jpg", 
-	    description: "Plague doctor"
+	    "thumbUrl": "images/drawings/plague-doctor.jpg", 
+	    "caption": "Plague doctor",
+		"url": "images/drawings/plague-doctor.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/Lulu.jpg", 
-	    description: "Inspired by my sister's funny dog"
+	    "thumbUrl": "images/drawings/Lulu.jpg", 
+	    "caption": "Inspired by my sister's funny dog",
+		"url": "images/drawings/Lulu.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/mushrooms.jpg", 
-	    description: "Mushrooms"
+	    "thumbUrl": "images/drawings/mushrooms.jpg", 
+	    "caption": "Mushrooms",
+		"url": "images/drawings/mushrooms.jpg"
 	  },
 	  { 
-	    icon: "images/drawings/arms.jpg", 
-	    description: "Arms"
+	    "thumbUrl": "images/drawings/arms.jpg", 
+	    "caption": "Arms",
+		"url": "images/drawings/arms.jpg"
 	  },
 	];
+		$scope.openLightboxModal = function (index) {
+			Lightbox.openModal($scope.drawingpics, index);
+		};
     })
 	
 	// Controller for the paintings
