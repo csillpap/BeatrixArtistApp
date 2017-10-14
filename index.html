@@ -24,34 +24,30 @@
 	
 	<body>
 	
-		<nav class="navbar">
+		<nav class="navbar container-fluid">
 			
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="/">Beatrix Pap</a>
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+			<div>
+				<div id="menu-button">
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#myCollapsingList">MENU</button>
 				</div>
-				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse navbar-right">
-					<li><a href="/">Home</a></li>
-					<li class="dropdown" id="gallery"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery</a>
-						<ul class="dropdown-menu">
-							<li><a href="/drawings">Drawings</a></li>
-							<li><a href="/paintings">Paintings</a></li>
-							<li><a href="/other">Other art</a></li>
-						</ul>
-					</li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/contact">Contact</a></li>
-				</ul>
+				<div id="logo-container">
+					<a id="logo" href="/">Beatrix Pap</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myCollapsingList">
+					<ul class="nav navbar-nav">
+						<li><a href="/">Home</a></li>
+						<li><a href="/drawings">Drawings</a></li>
+						<li><a href="/paintings">Paintings</a></li>
+						<li><a href="/other">Other art</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				</div>
 			</div>
 		
 		</nav>
 		
-		<div ng-view>
+		<div class="container-fluid" ng-view>
 		
 		</div>
 		
