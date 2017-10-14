@@ -116,6 +116,16 @@ angular.module("Controllers", [])
 		"url": "images/drawings/muscles.jpg"
 	  },
 	  { 
+	    "thumbUrl": "images/drawings/naked-man.jpg", 
+	    "caption": "The beauty of a naked man",
+		"url": "images/drawings/naked-man.jpg"
+	  },
+	  { 
+	    "thumbUrl": "images/drawings/mushroom1.jpg", 
+	    "caption": "The muscles of a human",
+		"url": "images/drawings/mushroom1.jpg"
+	  },
+	  { 
 	    "thumbUrl": "images/drawings/skyrim.jpg", 
 	    "caption": "Skyrim",
 		"url": "images/drawings/skyrim.jpg"
