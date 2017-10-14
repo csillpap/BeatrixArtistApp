@@ -122,7 +122,7 @@ angular.module("Controllers", [])
 	  },
 	  { 
 	    "thumbUrl": "images/drawings/mushroom1.jpg", 
-	    "caption": "The muscles of a human",
+	    "caption": "Mushrooms",
 		"url": "images/drawings/mushroom1.jpg"
 	  },
 	  { 
