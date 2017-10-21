@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type= "text/css" href="bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Marck+Script|Josefin+Sans" rel="stylesheet">
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 		<script type="text/javascript" src="bower_components/angular/angular.js"></script>
@@ -26,24 +26,21 @@
 	
 		<nav class="navbar container-fluid">
 			
-			<div>
-				<div id="menu-button">
-					<button class="navbar-toggle" data-toggle="collapse" data-target="#myCollapsingList">MENU</button>
+				<div class="navbar-header">
+					<a id="logo" class="navbar-brand" href="/">Beatrix Pap</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
-				<div id="logo-container">
-					<a id="logo" href="/">Beatrix Pap</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myCollapsingList">
-					<ul class="nav navbar-nav">
-						<li><a href="/">Home</a></li>
-						<li><a href="/drawings">Drawings</a></li>
-						<li><a href="/paintings">Paintings</a></li>
-						<li><a href="/other">Other art</a></li>
-						<li><a href="/about">About</a></li>
-						<li><a href="/contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
+				<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse navbar-right">
+					<li><a href="/drawings" class="to-change">Drawings</a></li>
+					<li><a href="/paintings" class="to-change">Paintings</a></li>
+					<li><a href="/other" class="to-change">Other</a></li>
+					<li><a href="/about" class="to-change">About</a></li>
+					<li><a href="/contact" class="to-change">Contact</a></li>
+				</ul>
 		
 		</nav>
 		
@@ -51,12 +48,14 @@
 		
 		</div>
 		
+		
+		
 		<footer class="col-12">
 		
 			<a href="#"><i class="fa fa-facebook-square"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-twitter-square"></i></a>
 			<a href="#"><i class="fa fa-instagram"></i></a>
-			<p>All rights reserved © Beatrix Pap</p>
+			<p>All rights reserved &copy; Beatrix Pap</p>
 		
 		</footer>
 		

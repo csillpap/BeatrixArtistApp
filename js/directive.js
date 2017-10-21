@@ -1,35 +1,35 @@
 // Directive for Drawings 
 
-angular.module("DrawingsDirective",[]).directive("drawings", function() {
+angular.module("DrawingsDirective",[]).directive("drawingImages", function() {
   return {
     restrict: 'EA',    // EA -> element/attribute
 	scope: {
 		drawing: "="
 	},
-    templateUrl: 'templates/directives/drawings.html'
+    templateUrl: 'templates/directives/drawing-images.html'
   };
 }); 
 
 // Directive for Paintings
 
-angular.module("PaintingsDirective",[]).directive("paintings", function() {
+angular.module("PaintingsDirective",[]).directive("paintingImages", function() {
   return {
     restrict: 'EA',    // EA -> element/attribute
 	scope: {
 		painting: "="
 	},
-    templateUrl: 'templates/directives/paintings.html'
+    templateUrl: 'templates/directives/painting-images.html'
   };
 });
 
 // Directive for Other Art
 
-angular.module("OtherArtDirective",[]).directive("otherArt", function() {
+angular.module("OtherArtDirective",[]).directive("otherImages", function() {
   return {
     restrict: 'EA',    // EA -> element/attribute
 	scope: {
 		other: "="
 	},
-    templateUrl: 'templates/directives/other-art.html'
+    templateUrl: 'templates/directives/other-images.html'
   };
 });
