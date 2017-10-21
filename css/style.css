@@ -1,82 +1,32 @@
-body {
-	/*padding-top: 60px; /* to push the content down from the navbar */
-}
 
-.picture-headers {
-	text-align: center;
-	margin-bottom: 50px;
-	font-size: 50px;
-}
+
+/* Images */
 
 .picture-container {
 	padding: 5px;
 }
 
-
-@media screen and (min-width: 768px) {
-	.navbar {
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-	.picture-container:hover {
-		-webkit-transform: scale(1.1, 1.1);
-		-moz-transform: scale(1.1, 1.1);
-		transform: scale(1.1, 1.1);
-		z-index: 1;
-	}
-	footer {
-		margin-top: 100px;
-		margin-bottom: 60px;
-	}
-	.navbar-nav {
-    display:table;
-    width:100%;
-    margin: 0;
-	}
-	.navbar-nav > li {
-		float:none;
-		display:table-cell;
-		text-align:center;
-	}
-}
-
-
-@media screen and (max-width: 767px) {
-		button.navbar-toggle {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			float: none;
-			margin-top: 0px;
-			margin-bottom: 0px;
-		}
-		
+.all-picture-container {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 
 /* Styling the navbar */
 
-#menu-button-container {
-	background-color: #DCDCDC;
-}
-
-#logo-container {
-	text-decoration: none;
-	text-align: center;
-	margin-bottom: 30px;
-}
-
 
 #logo {
-	font-family: 'Great Vibes', cursive;
-	font-size: 60px;
-	color: black;
+	font-family: 'Marck Script', cursive;
+	color: /*black;*/ #220F23;
 	text-decoration: none;
+	font-size: 35px;
 }
+
+
 
 .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: black;
+	color: #888888;
 }
 
 .navbar-nav > li > a:hover,
@@ -85,22 +35,172 @@ body {
 	color: black;
 }
 
+span.icon-bar {
+	background-color: white;
+}
 
+button.navbar-toggle.collapsed {
+	background-color: #888888;
+	border-radius: 6px;
+}
+
+/* Home page */
+
+.home-page {
+	padding: 0px;
+}
+
+/* General page styling */
+
+.jumbotron {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #EDECED;
+	border: 1px solid #eee;
+}
+
+.jumbotron > h1 {
+	font-size: 30px;
+	font-family: "Abel";
+}
+
+ 
+.info-container {
+	font-family: "Josefin Sans";
+}
+
+
+/* Styling the About page */
+
+.text-container > p {
+		line-height: 1.8;
+		font-size: 16px;
+	}
+
+/* Styling the Contact page */
+
+.btn.btn-primary,
+.btn.btn-primary:hover {
+	background-color: #984F79; 
+	border-color: #eee;
+}
+
+
+.button-clicked {
+	background-color: #984F79; 
+	border-color: #eee;
+}
+
+.container-fluid.ng-scope {
+	padding: 0px;
+}
+
+#message-p {
+	margin-top: 20px;
+}
+
+#message-input {
+	height: 74px;
+}
+
+input:-webkit-autofill, 
+textarea:-webkit-autofill, 
+select:-webkit-autofill {
+	background-color: white !important;
+}
+
+#icon-container {
+	text-align: center;
+	padding: 50px;
+}
+
+i.fa.fa-facebook-square:hover,
+i.fa.fa-facebook-square:focus,
+i.fa.fa-twitter:hover,
+i.fa.fa-twitter:focus,
+i.fa.fa-twitter-square:hover,
+i.fa.fa-twitter-square:focus,
+i.fa.fa-instagram:hover,
+i.fa.fa-instagram:focus,
+footer > a:hover,
+footer > a:focus {
+	color: #888888;
+}
+
+i.fa.fa-facebook-square,
+i.fa.fa-twitter,
+i.fa.fa-instagram {
+	font-size: 50px;
+	color: black;
+}
 
 /* Styling the footer */
 
 footer {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
 footer > p {
 	color: #333;
 	font-size: 15px;
+	font-family: "Josefin Sans";
 }
 
-footer > a {
+footer > a > i.fa.fa-facebook-square,
+footer > a > i.fa.fa-twitter-square,
+footer > a > i.fa.fa-instagram {
 	font-size: 25px;
-	color: #065da7;
+	color: black;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 767px) {
+
+		.jumbotron {
+			text-align: center;
+		}
+
+		footer {
+			margin-top: 20px;
+		}
+
+		.text-container {
+			padding: 30px 50px 0 50px;
+			}
+
+		.text-container > p {
+			line-height: 1.8;
+			font-size: 15px;
+		}
+}
+
+@media screen and (min-width: 768px) {
+	.navbar {
+		padding: 15px 5px;
+		margin-bottom: 0px;
+	}
+	footer {
+		margin-top: 100px;
+		margin-bottom: 60px;
+	}
+
+
+}
+
+@media (min-width: 992px) {
+	img.img-responsive.artpic:hover {
+	-webkit-filter: opacity(0.5);
+	}
+	.text-container {
+		padding: 80px 70px 0 70px;
+	}
+
+}
+
+
+@media (min-width: 1200px) {
+	#logo {
+		font-size: 50px;
+	}
 }

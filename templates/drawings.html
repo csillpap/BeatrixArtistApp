@@ -1,7 +1,9 @@
-<div class="container">
+<div class="container-fluid" ng-controller="DrawingsController">
 	
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-xs-12 picture-container" ng-repeat="drawingpic in drawingpics">
+	<div class="jumbotron row"><h1>DRAWINGS</h1></div>
+	
+	<div class="row all-picture-container">
+		<div class="col-lg-2 col-md-3 col-xs-12 picture-container" ng-repeat="drawingpic in drawingpics">
 			<a href="#" ng-click="openLightboxModal($index)">
 				<drawing-images drawing="drawingpic"></drawing-images>
 			</a>

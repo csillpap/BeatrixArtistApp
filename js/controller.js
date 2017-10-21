@@ -351,9 +351,9 @@ angular.module("Controllers", [])
 		"url": "images/other/utopia-band.jpg"
 	  },
 	  { 
-	    "thumbUrl": "images/other/blinded-by-you.jpg", 
-	    "caption": "The effect of a grenade",
-		"url": "images/other/blinded-by-you.jpg"
+	    "thumbUrl": "images/other/little-prince-and-fox.jpg",
+	    "caption": "The Little Prince and The Fox",
+		"url": "images/other/little-prince-and-fox.jpg"
 	  },
 	  { 
 	    "thumbUrl": "images/other/clay-head.jpg", 
@@ -361,9 +361,9 @@ angular.module("Controllers", [])
 		"url": "images/other/clay-head.jpg"
 	  },
 	  { 
-	    "thumbUrl": "images/other/football-cards.jpg", 
-	    "caption": "Football cards",
-		"url": "images/other/football-cards.jpg"
+	    "thumbUrl": "images/other/little-prince-and-snake.jpg",
+	    "caption": "The Little Prince and The Snake",
+		"url": "images/other/little-prince-and-snake.jpg"
 	  },
 	  { 
 	    "thumbUrl": "images/other/drypoint.jpg", 
