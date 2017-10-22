@@ -1,5 +1,8 @@
 # Beatrix Artist App
 
+
+![Screenshot](screenshot.png)
+
 ## Overview
 
 An artist app to present the work of Beatrix Pap. Visitors can navigate through the website via the navigation bar at the top. They will be presented with the following features:
@@ -28,6 +31,10 @@ An artist app to present the work of Beatrix Pap. Visitors can navigate through 
 	
 - [bower](https://bower.io/): a package manager for the website
 	- We use **bower** to manage the installation of the libraries and frameworks
+	
+## Testing
+- Tested the responsiveness of the application on different screen sizes
+- Tested the application on different browsers
 	
 ## Contributing
 
