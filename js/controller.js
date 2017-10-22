@@ -126,9 +126,9 @@ angular.module("Controllers", [])
 		"url": "images/drawings/mushroom1.jpg"
 	  },
 	  { 
-	    "thumbUrl": "images/drawings/skyrim.jpg", 
+	    "thumbUrl": "images/drawings/Skyrim.jpg",
 	    "caption": "Skyrim",
-		"url": "images/drawings/skyrim.jpg"
+		"url": "images/drawings/Skyrim.jpg"
 	  },
 	  { 
 	    "thumbUrl": "images/drawings/Blood-queen-Lanathel.jpg", 
