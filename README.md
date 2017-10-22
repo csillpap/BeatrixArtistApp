@@ -1,5 +1,6 @@
 # Beatrix Artist App
 
+https://csillpap.github.io/BeatrixArtistApp/
 
 ![Screenshot](screenshot.png)
 
