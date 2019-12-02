@@ -1,9 +1,5 @@
 # Beatrix Artist App
 
-https://csillpap.github.io/BeatrixArtistApp/
-
-![Screenshot](screenshot.png)
-
 ## Overview
 
 An artist app to present the work of Beatrix Pap. Visitors can navigate through the website via the navigation bar at the top. They will be presented with the following features:
